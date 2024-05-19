@@ -1,0 +1,77 @@
+rita.css
+body {
+    background-color: darkred;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input[type=text], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #12522a;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2f442b;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 25%;
+    background-color: #606842;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #606842;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f3f8f0;
+    padding: 20px;
+  }
+
+
+h1 {
+    font-size: xx-large;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     
+    .navbar button {
+        background-color: rgb(132, 151, 97);
+        padding: 4px;                                                     
+        margin: 0px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .navbar a{
+         color: aliceblue;
+         text-decoration: none;
+         padding: 15px;
+         display: block;
+         text-align: center;
+
+    }
+  
+    .navbar button{
+        float: inline-end;
+    }
+    
